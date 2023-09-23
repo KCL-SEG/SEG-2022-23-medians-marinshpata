@@ -3,7 +3,7 @@
 
 def findMedian(*args):
     if len(args) % 2 == 0:
-        return (args[len(args) - 1] + args[len(args) - 1]) / 2
+        return (args[len(args) - 1] + args[len(args)]) / 2
     else:
         return args[len(args) // 2]
 
