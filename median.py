@@ -4,7 +4,6 @@
 def findMedian(numbers):
     numbers = sorted(numbers)
     if len(numbers) % 2 == 0:
-        print(numbers,numbers[len(numbers) // 2 - 1] + numbers[len(numbers) // 2],  numbers[len(numbers) // 2 - 1],numbers[len(numbers) // 2])
         return (numbers[len(numbers) // 2 - 1] +numbers[len(numbers) // 2]) / 2
     else:
         return numbers[len(numbers) // 2]
