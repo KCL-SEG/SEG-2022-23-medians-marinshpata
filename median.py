@@ -1,13 +1,6 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-def findMedian(numbers):
-    numbers = sorted(numbers)
-    if len(numbers) % 2 == 0:
-        return (numbers[len(numbers) // 2 - 1] +numbers[len(numbers) // 2]) / 2
-    else:
-        return numbers[len(numbers) // 2]
-    
 
 while True:
     try:
@@ -18,7 +11,13 @@ while True:
     else:
         break
 
-findMedian(numbers)
+numbers = sorted(numbers)
+if len(numbers) % 2 == 0:
+    print(numbers[len(numbers) // 2 - 1] +numbers[len(numbers) // 2]) / 2
+else:
+    print(numbers[len(numbers) // 2])
+
+
 
 
 
