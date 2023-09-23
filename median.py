@@ -16,8 +16,8 @@ while True:
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
-        break
+        print(findMedian(numbers))
 
-findMedian(numbers)
+
 
     
