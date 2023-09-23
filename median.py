@@ -7,6 +7,7 @@ def findMedian(numbers):
         return (numbers[len(numbers) // 2 - 1] +numbers[len(numbers) // 2]) / 2
     else:
         return numbers[len(numbers) // 2]
+    
 
 while True:
     try:
