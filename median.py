@@ -3,7 +3,7 @@
 
 def findMedian(numbers):
     if len(numbers) % 2 == 0:
-        return (numbers[len(numbers) / 2 - 1] + numbers[len(numbers) / 2]) / 2
+        return (numbers[len(numbers) // 2 - 1] + numbers[len(numbers) // 2]) / 2
     else:
         return numbers[len(numbers) // 2]
 
@@ -15,7 +15,6 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         findMedian(numbers)
-
 
 
 
