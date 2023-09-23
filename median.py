@@ -13,7 +13,7 @@ while True:
 
 numbers = sorted(numbers)
 if len(numbers) % 2 == 0:
-    print(numbers[len(numbers) / 2 - 1] + numbers[len(numbers) // 2] / 2) 
+    print((numbers[len(numbers) / 2 - 1] + numbers[len(numbers) // 2]) / 2) 
 else:
     print(numbers[len(numbers) // 2])
 
