@@ -1,11 +1,11 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-def findMedian(*args):
-    if len(args) % 2 == 0:
-        return (args[len(args) - 1] + args[len(args)]) / 2
+def findMedian(numbers):
+    if len(numbers) % 2 == 0:
+        return (numbers[len(numbers) / 2 - 1] + numbers[len(numbers) / 2]) / 2
     else:
-        return args[len(args) // 2]
+        return numbers[len(numbers) // 2]
 
 while True:
     try:
@@ -15,6 +15,7 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         findMedian(numbers)
+
 
 
 
